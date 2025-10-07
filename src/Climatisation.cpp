@@ -1,6 +1,6 @@
 #include <exception>
 using namespace std;
-
+#include <iostream>
 #include "../include/Climatisation.h"
 
 Climatisation::Climatisation()
@@ -34,10 +34,12 @@ void Climatisation::setEtat(bool aEtat)
 
 int Climatisation::activer()
 {
-	throw "Not yet implemented";
+    cout<<"Climatisation activé"<< endl;
+	return 0;
 }
 
 int Climatisation::stopper()
 {
-	throw "Not yet implemented";
+    cout<<"Climatisation désactivé"<< endl;
+	return 0;
 }
